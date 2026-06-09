@@ -48,11 +48,11 @@ As long as I use HeliBoard ([and Gaggle doesn't close Android](https://keepandro
 
 ## Installation
 
-<!--
+<!-- 
 | File | HeliBoard Version |
 | -- | -- |
 | HeliBoard_3-9_WideHB.zip | HeliBoard 3.9 |
- -->
+ --> 
 
 There are basically three ways to install Wide HB Keyboard; the [easy way](#easy-installation), the [hard way](#hard-installation), the [manual way](#manual-installation).  All have their benefits and drawbacks.
 
