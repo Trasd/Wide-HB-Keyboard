@@ -58,7 +58,7 @@ Based on the suppositions above, to create a sharable and or switchable (for swi
         {}
     ```  
 
-      then decide if you need it or not.  It appears that if an entry exist in the custom restore file, it will replace the current item when restored, so if you include the blank ```protected_preferences.json``` file, it could overwrite something important.
+      then decide if you need it or not.  It appears that if an entry exist in the custom restore file, it will replace the current item when restored, so if you include the blank ```protected_preferences.json``` file, it could overwrite something important.  You should be safe deleting it.
 
       This will leave you with the following (root) directory structure:
 	- ```unprotected/```
