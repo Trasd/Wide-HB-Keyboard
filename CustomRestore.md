@@ -12,7 +12,7 @@ There are two main benefits for creating custom restore files:
 
 ## Suppositions
 
-I have not examined HeliBoard's source code and I do not plan to do so, but through testing, I have concluded the following suppositions:
+I have not examined HeliBoard's source code and I do not plan to do so, but through testing, I have reached the following suppositions:
 - A HeliBoard backup/restore file follows this naming convention: ```HeliBoard_backup_yyyy-mm-dd.zip```, where ```yyyy``` is the year, ```mm``` is the numeric month, and ```dd``` is the numeric day of the month.
 - A HeliBoard backup/restore file has the following structure:
   - HeliBoard_backup_yyy-mm-dd/
