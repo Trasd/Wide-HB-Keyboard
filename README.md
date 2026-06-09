@@ -24,7 +24,7 @@ As long as I use HeliBoard ([and Gaggle doesn't close Android](https://keepandro
 
 ## Please Note
 
-- Starting at the top left, you'll see some long-press symbols (currently Ⓣ, Ⓜ, Ⓖ, Ⓓ).  These are for inputting email addresses.  You'll want to customize them to your own information/usage.  See [Customizing](#customizing) below.
+- Starting at the top left, you'll see some long-press symbols (currently ```Ⓣ```, ```Ⓜ```, ```Ⓖ```, ```Ⓓ```).  These are for inputting email addresses.  You'll want to customize them to your own information/usage.  See [Customizing](#customizing) below.
 - Redo (↷) is a long-press of Undo (↶).
 - A few keys have double long-press symbols.  These are used for bracketing (sans ```// ``` &nbsp; which has a space after it for C-like comments).  As there is no cursor control available with custom keycodes (yet?), be sure to press the cursor back key (←) after using them.  That will put the cursor between the symbols ready for more input.
 - The timestamp key (⏱) is formatted to input a date code suitable for file names (```yyyy-MM-dd_HH-mm-ss_```).  The final underline is because I precede archive file and directory names with timestamps.  Season to your taste.
@@ -169,4 +169,4 @@ Once you confirm Wide HB Keyboard is [installed](#installation), follow these st
 	and change each of the email address entries to whatever you want.
 4. When you are done, simply tap ```[Save]```.
 
-The Ⓣ, Ⓜ, Ⓖ, and Ⓓ can be replaced with your own Unicode characters, but if you want to stick with the circled letters, they are between 24B6 (Ⓐ) and 24CF (Ⓩ).
+The ```Ⓣ```, ```Ⓜ```, ```Ⓖ```, and ```Ⓓ``` can be replaced with your own Unicode characters, but if you want to stick with the circled letters, they are between 24B6 (```Ⓐ```) and 24CF (```Ⓩ```).
