@@ -64,7 +64,7 @@ Based on the suppositions above, to create a sharable and or switchable (for swi
 	- ```unprotected/```
 	- ```preferences.json```
 	- and _possibly_ ```protected_preferences.json```
-5. In the various ```.../layouts/...``` folders, you will find your custom layout files (one for each custom layout of that type, e.g. ```main``` or ```number_row```).  GREP or look through these files and remove any compromising information, like your email addresses, home address, etc., that you do not want to become public knowledge.  I recommend you put placeholders to make it easier for non-technical people to easily enter their own information.
+5. In the various ```.../layouts/...``` folders, you will find your custom layout files (one for each custom layout of that type, e.g. ```main``` or ```number_row```).  GREP or look through these files and remove any compromising information (they are JSON files without the extension), like your email addresses, home address, etc., that you do not want to become public knowledge.  I recommend you put placeholders to make it easier for non-technical people to easily enter their own information.
 6. Now, zip your directory and give it any name you want.  Remember, the starting ```HeliBoard_backup_yyyy-mm-dd``` directory is not part of the compressed data, but only the name of the HeliBoard backup/restore file.  Make sure your compressed root directory is the one containing:
 	- ```unprotected/```
 	- ```preferences.json```
