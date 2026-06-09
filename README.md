@@ -10,7 +10,7 @@ As long as I use HeliBoard ([and Gaggle doesn't close Android](https://keepandro
 
 ## Screenshots
 
-<!-- 
+<!--
 ![](https://github.com/Trasd/Wide-HB-Keyboard/blob/main/images/WideKB.png) 
 -->
 
