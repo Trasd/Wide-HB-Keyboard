@@ -48,11 +48,14 @@ As long as I use HeliBoard ([and Gaggle doesn't close Android](https://keepandro
 
 ## Installation
 
-<!-- 
+Be sure to use the correct version of Wide HB Keyboard for the HeliBoard version you have installed.
+
 | File | HeliBoard Version |
 | -- | -- |
 | HeliBoard_3-9_WideHB.zip | HeliBoard 3.9 |
- --> 
+| HeliBoard_4-0-alpha1_WideHB | HeliBoard 4.0 alpha1 |
+
+<br>
 
 There are basically three ways to install Wide HB Keyboard; the [easy way](#easy-installation), the [hard way](#hard-installation), the [manual way](#manual-installation).  All have their benefits and drawbacks.
 
@@ -72,9 +75,9 @@ I have not seen installations done like this before (I may have missed it), so p
 
 To install Wide HB Keyboard the easy way, follow these steps.  Remember, this procedure will replace all your current custom layouts and settings, but _should_ preserve your custom dictionaries, etc.:
 1. Do a full backup of your current HeliBoard setup ```[HeliBoard Settings->Advanced->Backup and restore->Backup]```.
-2. Download the [HeliBoard_3-9_WideHB.zip](HeliBoard_3-9_WideHB.zip) raw file from this package.
+2. Download the correct Wide HB Keyboard version raw file from [this GitHub package](https://github.com/Trasd/Wide-HB-Keyboard).
 	- Feel free to manually unzip the restore file and check it out if you are concerned with security issues.
-3. Install Wide HB Keyboard by going to ```[HeliBoard Settings->Advanced->Backup and restore->Restore]``` and choosing ```HeliBoard_3-9_WideHB.zip``` from the directory where you downloaded it.
+3. Install Wide HB Keyboard by going to ```[HeliBoard Settings->Advanced->Backup and restore->Restore]``` and choosing ```HeliBoard_version_WideHB.zip``` from the directory where you downloaded it.
 	- You may get an error stating only one loop can be run at a time.  You can safely ignore this error (from my experience).
 4. [Confirm](#confirm-proper-installation) Wide HB Keyboard's installation.
 5. That's it.  Proceed with [Customizing](#customizing) below.
@@ -90,18 +93,18 @@ The steps below can get very confusing, so please make sure you understand them 
 This installation is a bit more technical than the easy installation, but it should preserve your current custom layouts, dictionaries, etc., only adding my layout and changing your settings to better work with Wide HB Keyboard.
 
 1. Do a full backup of your current HeliBoard setup ```[HeliBoard Settings->Advanced->Backup and restore->Backup]```.  It will be named like ```HeliBoard_backup_yyyy-mm-dd.zip```, where ```yyyy``` is the year, ```mm``` is the numeric month, and ```dd``` is the numeric day of the month of the backup.
-2. Download the [HeliBoard_3-9_WideHB.zip](HeliBoard_3-9_WideHB.zip) raw file from this package.
+2. Download the correct Wide HB Keyboard version raw file from [this GitHub package](https://github.com/Trasd/Wide-HB-Keyboard).
 	- Feel free to manually unzip the restore file and check it out if you are concerned with security issues.
 3. Copy your backup (from step 1: ```HeliBoard_backup_yyyy-mm-dd.zip```) into an empty working directory.  **Please keep a separate copy of your backup in a safe place.**
-4. Copy the ```HeliBoard_3-9_WideHB.zip``` file from step 2 into the same working directory as step 3.
-5. From inside of your working directory, unzip both files (the copy of your backup ```HeliBoard_backup_yyyy-mm-dd.zip``` and ```HeliBoard_3-9_WideHB.zip```).
+4. Copy the ```HeliBoard_version_WideHB.zip``` file from step 2 into the same working directory as step 3.
+5. From inside of your working directory, unzip both files (the copy of your backup ```HeliBoard_backup_yyyy-mm-dd.zip``` and ```HeliBoard_version_WideHB.zip```).
 	- As a sanity check, make sure the root of your working directory has these four items:
     	- A copy of your HeliBoard backup (```HeliBoard_backup_yyyy-mm-dd.zip```)
     	- An unzipped directory of your HeliBoard backup (```HeliBoard_backup_yyyy-mm-dd```)
-    	- ```HeliBoard_3-9_WideHB.zip```
-    	- A directory called ```HeliBoard_3-9_WideHB``` that was unzipped from ```HeliBoard_3-9_WideHB.zip```.
-6. Delete the two files (```HeliBoard_backup_yyyy-mm-dd.zip``` and ```HeliBoard_3-9_WideHB.zip```) leaving just the two directories.
-7. Inside of the ```HeliBoard_3-9_WideHB``` directory, you will find two items:
+    	- ```HeliBoard_version_WideHB.zip```
+    	- A directory called ```HeliBoard_version_WideHB``` that was unzipped from ```HeliBoard_version_WideHB.zip```.
+6. Delete the two files (```HeliBoard_backup_yyyy-mm-dd.zip``` and ```HeliBoard_version_WideHB.zip```) leaving just the two directories.
+7. Inside of the ```HeliBoard_version_WideHB``` directory, you will find two items:
 	- ```unprotected``` [directory]
 	- ```preferences.json``` [file]  
 
