@@ -142,6 +142,11 @@ If you choose this method, please, at a minimum, set these settings or Wide HB K
 - Make sure ```[HeliBoard Settings->Appearance->Enable split keyboard]``` is **disabled** for both portrait and landscape orientations.
 - Make sure ```[HeliBoard Settings->Preferences->Number row, always show number row]``` is **enabled**.
 
+There are three layout files to copy/paste in.  Matchup the directory names with they layout type (all files are text and have the same name: custom.y2geg9hdu_):
+  1. ```...unprotected/layouts/functional```
+  2. ```...unprotected/layouts/main```
+  3. ```...unprotected/layouts/number_row```
+
 <br>
 
 ## Confirm Proper Installation
