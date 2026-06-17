@@ -124,7 +124,7 @@ This step **adds** three files to your ```HeliBoard_backup_yyyy-mm-dd``` directo
 	- ```preferences.json``` [file]
 	- ```protected_preferences``` [file]
   
-	In other words, the name of the zipped file would be ```HeliBoard_backup_yyyy-mm-dd```, and the list above would be what is compressed.
+	In other words, the name of the zipped file would be ```HeliBoard_backup_yyyy-mm-dd```, and the list above would be what is compressed.  There may be other items in the list, like ```blacklists``` [directory], which can be safely ignored.
 
 	You can actually name your zipped file whatever you wish, but just make sure you restore the correct zipped file in the next step.
 9.  Install your new custom restore file by going to ```[HeliBoard Settings->Advanced->Backup and restore->Restore]``` and choosing ```HeliBoard_backup_yyyy-mm-dd.zip``` (or whatever you named your zip file from step 8) from your working directory.
@@ -143,7 +143,7 @@ If you choose this method, please, at a minimum, set these settings or Wide HB K
 - Make sure ```[HeliBoard Settings->Appearance->Enable split keyboard]``` is **disabled** for both portrait and landscape orientations.
 - Make sure ```[HeliBoard Settings->Preferences->Number row, always show number row]``` is **enabled**.
 
-There are three layout files to copy/paste in.  Matchup the directory names with they layout type (all files are text and have the same name: ```custom.y2geg9hdu_```):
+There are three layout files to copy/paste in.  Matchup the directory names with the layout type (all files are text and have the same name: ```custom.y2geg9hdu_```):
   1. ```...unprotected/layouts/functional```
   2. ```...unprotected/layouts/main```
   3. ```...unprotected/layouts/number_row```
