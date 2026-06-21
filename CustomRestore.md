@@ -62,7 +62,7 @@ Based on the suppositions above, to create a sharable and or switchable (for swi
       then decide if you need it or not.  It appears that if an entry exist in the custom restore file, it will replace the current item when restored, so if you include the blank ```protected_preferences.json``` file, it could overwrite something important.  You should be safe deleting it.
 
       This will leave you with the following (root) directory structure:
-	- ```unprotected/```
+	- ```unprotected/...```
 	- ```preferences.json```
 	- and _possibly_ ```protected_preferences.json```
 5. In the various ```.../layouts/...``` folders, you will find your custom layout files (one for each custom layout of that type, e.g. ```main``` or ```number_row```).  GREP or look through these files and remove any compromising information (they are JSON files without the extension), like your email addresses, home address, etc., that you do not want to become public knowledge.  I recommend you put placeholders to make it easier for non-technical people to easily enter their own information.
