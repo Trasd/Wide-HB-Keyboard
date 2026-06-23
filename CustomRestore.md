@@ -2,7 +2,7 @@
 
 Currently, [HeliBoard](https://github.com/HeliBorg/HeliBoard) has no import or export capability for installing custom layouts.  As the keyboard is still in development, I don't expect a programmer's attention to be turned in that direction anytime soon.
 
-In the meantime, I _think_ I have discovered an easy workaround.  This method, as far as I know, has yet to be tested on a large scale.  I've tested it myself in a limited way, but there is a lot I may have missed.  Please report any major issues you may find.  I decided to create the instructions here instead of putting them on HeliBoard's Wiki because it needs testing first and the procedure may not work after HeliBoard updates.
+In the meantime, try this technique as a workaround.  This method, as far as I know, has yet to be tested on a large scale.  I've tested it myself in a limited way, but there is a lot I may have missed.  Please report any major issues you may find.  I decided to create the instructions here instead of putting them on HeliBoard's Wiki because it needs testing first and the procedure may not work after HeliBoard updates.
 
 There are two main benefits for creating custom restore files:
 - Custom layouts are easier to share without compromising dictionaries, and other personal data (clipboard entries, gestures, etc.).
@@ -65,7 +65,7 @@ Based on the suppositions above, to create a sharable and or switchable (for swi
 	- ```unprotected/...```
 	- ```preferences.json```
 	- and _possibly_ ```protected_preferences.json```
-5. In the various ```.../layouts/...``` folders, you will find your custom layout files (one for each custom layout of that type, e.g. ```main``` or ```number_row```).  GREP or look through these files and remove any compromising information (they are JSON files without the extension), like your email addresses, home address, etc., that you do not want to become public knowledge.  I recommend you put placeholders to make it easier for non-technical people to easily enter their own information.
+5. In the various ```.../layouts/...``` folders, you will find your custom layout files (one for each custom layout of that type, e.g. ```main``` or ```number_row```).  If you plan on sharing your custom layout(s), GREP or look through these files and remove any compromising information (they are JSON files without the extension), like your email addresses, home address, etc., that you do not want to become public knowledge.  I recommend you put placeholders to make it easier for non-technical users to easily enter their own information.
 6. Now, zip your directory and give it any name you want.  Remember, the starting ```HeliBoard_backup_yyyy-mm-dd``` directory is not part of the compressed data, but only the name of the HeliBoard backup/restore file.  Make sure your compressed root directory is the one containing:
 	- ```unprotected/...```
 	- ```preferences.json```
