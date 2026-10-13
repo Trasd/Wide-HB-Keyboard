@@ -54,6 +54,7 @@ Be sure to use the correct version of Wide HB Keyboard for the HeliBoard version
 | -- | -- |
 | HeliBoard_3-9_WideHB.zip | HeliBoard 3.9 |
 | HeliBoard_4-0_WideHB.zip | HeliBoard 4.0 |
+| HeliBoard_4-2_WideHB.zip | HeliBoard 4.2 |
 
 <br>
 
